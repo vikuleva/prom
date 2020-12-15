@@ -12,3 +12,5 @@ dependencies {
 test {
     outputs.upToDateWhen { false }
 }
+
+apply plugin: 'jacoco'
